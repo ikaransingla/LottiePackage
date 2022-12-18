@@ -1,0 +1,11 @@
+framework module LottiePackageTest {
+  umbrella header "LottiePackageTest.h"
+
+  export *
+  module * { export * }
+}
+
+module LottiePackageTest.Swift {
+  header "LottiePackageTest-Swift.h"
+  requires objc
+}
