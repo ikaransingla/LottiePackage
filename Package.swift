@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-         .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.0.1"),
+//         .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.0.1"),
 
     ],
     targets: [
@@ -25,7 +25,7 @@ let package = Package(
             name: "LottiePackage",
             dependencies: [
                 .target(name: "LottiePackageTest", condition: .when(platforms: [.iOS])),
-                .product(name: "Lottie", package: "lottie-ios"),
+//                .product(name: "Lottie", package: "lottie-ios"),
             ])
     ]
 )
